@@ -1,3 +1,9 @@
+## Prompt
+
+export PS1="\w\[\033[33m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[\033[32m\]$ "
+
+This will change your prompt to display not only your working directory but also your current git branch in color. If you want to change color output you can easily do it. Just pick up possible colors below.
+
 ## ANSI color codes
 
 | Code color  | Color output |

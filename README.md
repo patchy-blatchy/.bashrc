@@ -1,8 +1,8 @@
 # Beautiful prompt on mac
 
-1. Do all changes in file .bash_profile. Also you can change your .bashrc, but in this case it won't run changes automatically. To run changes in .bashrc execute this line `source ~/.bashrc `
+Do all changes in file .bash_profile. Also you can change your .bashrc, but in this case it won't run changes automatically. To run changes in .bashrc execute this line `source ~/.bashrc `
 
-2. To get beautiful prompt without showing user folder, copy this: 
+To get beautiful prompt without showing user folder, copy this: 
 
 ```
 export PS1="\W \$"
@@ -10,7 +10,7 @@ export PS1="\W \$"
 It gives: 
 > ~$ 
 
-3. Add git branch name to bash prompt
+Add git branch name to bash prompt
 ```
 export PS1="\w\[\033[33m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[\033[32m\]$ "
 ```

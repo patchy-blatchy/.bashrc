@@ -1,7 +1,6 @@
 ## Prompt
 
-1. Do all changes in file .bash_profile. Also you can change your .bashrc, but in this case it won't run changes automatically. To run changes in .bashrc execute this line  source ~/.bashrc
-
+1. Do all changes in file .bash_profile. Also you can change your .bashrc, but in this case it won't run changes automatically. To run changes in .bashrc execute this line <pre><code>source ~/.bashrc</code></pre>  
 ```
 export PS1="\W \$"
 ```
